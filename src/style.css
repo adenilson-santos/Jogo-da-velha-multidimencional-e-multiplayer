@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+tr, td {
+    border: 3px solid black;
+}
+
+#credits {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
